@@ -1,0 +1,135 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: #161616;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 30px;
+    background: white;
+}
+
+header h1, h2{
+    color: black;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #6E2142;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.leftcolumn {   
+    width: 75%;
+}
+
+.rightcolumn {
+    float: right;
+    width: fit-content;
+    background-color: #6E2142;
+    padding-left: 15px;
+    height: fit-content;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 118%;
+}
+
+    .card1 {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    width: 410px;    
+}
+
+    .card1 a {
+    color: #6E2142;
+    text-decoration: none;
+    font-size: 40px;    
+}
+
+   .card2 {
+    background-color: #360c1e;
+    padding: 20px;
+    margin-top: 20px;
+    width: 1320px; 
+    color: white; 
+    text-align: left;
+}  
+    
+.card2 h1 {
+    color: white;
+    text-align: center;
+}    
+
+.row {
+    width: 75%;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #6E2142;
+    color: white;
+    width: 66%;
+}
+
+.rightimg{
+    float: right;
+}
+
+.footer h2, h3, h4 {
+    color: white;
+}
+
+
+
+.contenedor {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background-color: #6E2142;
+}
+.contenedor a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.contenedor a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.contpadre{
+    display: flex;
+}
+
+.centerdiv{
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(224, 211, 211);
+}
+
+.form-registro{
+    width: 95%;
+    max-width: 700px;
+    background: white;
+    padding: 20px;
+}
+
+select{
+    box-shadow: 0 10px 25px rgba(0, 0, 0, alpha);
+    font-size: 1.06rem;
+    padding: 1em 4em 1em 1.5em;
+    background: #4d614e;
+    color: white;
+    border: 0;
+}
+.form-tittle{
+    margin-top: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+label,input{
+    display: block;
+}
+label{
+    width: 20%;
+    margin-right: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+input{
+    width: 70%;
+}
+
+.selectPais{
+    position: relative;
+}
+.flecha{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    background: #4d614e;
+    height: 100%;
+    width: 2.5em;
+    pointer-events: none;
+}
+
+.flecha::before,
+.flecha::after{
+    --size: 0.2em;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.flecha::before{
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-bottom: 0.5em solid rgba(255, 255, 255, 0.5);
+    top: 35%;
+}
+
+.flecha::after{
+    border-left: 0.5em solid transparent;
+    border-right: 0.5em solid transparent;
+    border-top: 0.5em solid rgba(255, 255, 255, 0.5);
+    top: 65%;
+}
