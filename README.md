@@ -1,4 +1,4 @@
-# proyectoWEB
+# proyecto WEB
 
 En este repositorio se encuentra un proyecto final de la asignatura Tecnologías Web Crusada en ESCOM
 
